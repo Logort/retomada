@@ -6,12 +6,15 @@
     <title> meu primeiro script</title>
     <style>
         body{
-            background-color: rgb(100, 100, 184);
+            background-color: #6464b8;
             color: white;
-            font: normal 25pt Arial;}
+            font: normal 25pt Arial;
+        
+            color: #330744;
+        }
             
          h1 {
-                color: rgba(255, 255, 0, 0.664);
+                color: #ffff00a9;
             }
         
     </style>
@@ -23,14 +26,15 @@
         window.confirm('estagostando de JS?')
         window.prompt('qual e seu nome?')
 
-        var minhadiv = document.createElement("div");
-minhadiv.textContent = 'clique na tela para mudar de cor';
-minhadiv.style.backgroundColor ='black'
-minhadiv.style.padding='20px'
-minhadiv.style.margin = '20px'
-minhadiv.style.border= '1 px solid'
+        function changeColor () {
+            var colors = ['#000000 ,#ffffff,#6464b8,#2600ff,#330744']
+var randomColor = colors[math.floor(math.random()*color.length)];
+document.getElementById('full-screen').style.backgroundcolor = randomColor
+document.getElementById('full-screen').addEventListener('click',changeColor)
 
 
+
+        }
 
     </script>
 </body>
