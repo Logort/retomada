@@ -1,54 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> meu primeiro script</title>
-    <style>
-        body{
-            background-color: #6464b8;
-            color: white;
-            font: normal 25pt Arial;
-        
-        }
-            
-         h1 {
-                color: #ffff00a9;
-            }
-
-
-            #fullscreen{
-width: 100%;
-height: 100%;
-background-color: #6464b8;
-
-body , html{
-    height: 100%;
-    margin: 0;
-}
-
-        }
-    </style>
+    <title>O Campo e a Cidade: Colhendo Oportunidades</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Ola, mundo!</h1>
-    <p>parte do conteudo esta em html</p>
-   
-   
-   <script> window.alert('minha primeira mensagem')
-        window.confirm('estagostando de JS?')
-        window.prompt('qual e seu nome?')
+    <header>
+        <h1>O Campo e a Cidade: Colhendo Oportunidades</h1>
+    </header>
 
-        function changeColor () {
-            var colors = ['#000000 ,#ffffff,#6464b8,#2600ff,#330744']
-var randomColor = colors[math.floor(math.random()*color.length)];
-document.getElementById('full-screen').style.backgroundcolor = randomColor
-document.getElementById('full-screen').addEventListener('click',changeColor)
+    <section class="content">
+        <h2>Sobre o Agrinho</h2>
+        <p>O Agrinho é um programa que visa promover a educação no campo, estimulando a participação de crianças e jovens em atividades relacionadas à agricultura e ao meio ambiente.</p>
+        
+        <h2>Oportunidades no Campo</h2>
+        <p>No campo, há diversas oportunidades de aprendizado e desenvolvimento pessoal e profissional, desde o cultivo de alimentos até práticas sustentáveis.</p>
+    </section>
 
+    <section class="imagens">
+        <img src="campo.jpg" alt="Imagem representativa do campo">
+        <img src="agrinho.jpg" alt="Logotipo do programa Agrinho">
+    </section>
 
-
-        }
-
-    </script>
+    <footer>
+        <p>&copy; 2024 O Campo e a Cidade. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
